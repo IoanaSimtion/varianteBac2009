@@ -115,6 +115,4 @@ void solutie4() {
 	int a = 90;
 	cout << "Suma exponentilor din descompunerea in factori primi a numarului " << a << " este " << f(a);
 
-
-
 }
