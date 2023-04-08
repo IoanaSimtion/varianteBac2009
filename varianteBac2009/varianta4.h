@@ -8,70 +8,18 @@ using namespace std;
 //SUBIECTUL 2
 
 
-//3
-
-
-struct Fractie {
-
-	int x, y;
-
-};
-
-
-
-int cmmdc(int a, int b) {
-
-	int r;
-
-	do {
-		r = a % b;
-		a = b;
-		b = r;
-	} while (r);
-
-	return a;
-
-}
-
-
-void sol3() {
-
-	Fractie f, f1, f2;
-
-	cout << "numarator 1: ";
-	cin >> f1.x;
-	cout << "numarator 1: ";
-	cin >> f1.y;
-
-	cout << "numarator 2: ";
-	cin >> f2.x;
-	cout << "numarator 2: ";
-	cin >> f2.y;
-
-	int cmmmc = (f1.y * f2.y) / cmmdc(f1.y, f2.y);
-
-	f.x = f1.x * (cmmmc / f1.y) + f2.x * (cmmmc / f2.y);
-	f.y = f1.y * (cmmmc / f1.y) + f2.y * (cmmmc / f2.y);
-
-	cout << f1.x << '/' << f1.y << " + " << f2.x << '/' << f2.y << " = " << f.x << '/' << f.y;
-
-}
-
-
-
 //5
-
 
 
 void generareMatrice(int a[100][100], int n) {
 
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
-			if (i == j) {
+			if (i + j == n - 1) {
 				a[i][j] = 0;
 			}
 			else {
-				a[i][j] = n - j;
+				a[i][j] = n - i;
 			}
 		}
 	}
@@ -110,12 +58,11 @@ void sol5() {
 //SUBIECTUL 3
 
 
-
 //3
 
 
 int nrCifre(int n) {
-	
+
 	int ct = 0;
 
 	while (n) {
@@ -135,7 +82,7 @@ void citireMemorare(int v[], int& n) {
 
 	while (!f.eof()) {
 		f >> nr;
-		if (nrCifre(nr)>2) {
+		if (nrCifre(nr) < 3) {
 			v[n] = nr;
 			n++;
 		}
@@ -144,14 +91,14 @@ void citireMemorare(int v[], int& n) {
 }
 
 
-void bubbleSort(int v[], int n) {
+void bubbleSortDesc(int v[], int n) {
 
 	bool flag = 0;
 
 	do {
 		flag = 1;
 		for (int i = 0; i < n - 1; i++) {
-			if (v[i] > v[i + 1]) {
+			if (v[i] < v[i + 1]) {
 				swap(v[i], v[i + 1]);
 				flag = 0;
 			}
@@ -177,7 +124,7 @@ void solutie3() {
 	citireMemorare(v, n);
 
 	if (n != 0) {
-		bubbleSort(v, n);
+		bubbleSortDesc(v, n);
 		afisareVector(v, n);
 	}
 	else {
@@ -230,11 +177,11 @@ bool palindrom(int fr[]) {
 }
 
 
-void palindormMax(int fr[], int n, int& a, int& b) {
+void palindormMin(int fr[], int n, int& a, int& b) {
 
 	int p = 1;
 
-	for (int i = 9; i >= 0; i--) {
+	for (int i = 0; i < 10; i++) {
 		while (fr[i]) {
 			a = a * 10 + i;
 			b = i * p + b;
@@ -269,7 +216,7 @@ void solutie4() {
 	}*/
 
 	if (palindrom(fr) == true) {
-		palindormMax(fr, n, nr1, nr2);
+		palindormMin(fr, n, nr1, nr2);
 		cout << "b) " << nr1 * pow(10, nrCifre(nr2)) + nr2;
 	}
 	else {
