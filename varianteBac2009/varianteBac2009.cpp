@@ -1,4 +1,5 @@
-#include "varianta1.h";
+//#include "varianta1.h";
+#include "varianta2.h";
 
 int main()
 {
@@ -9,7 +10,7 @@ int main()
 
     //solutie3();
 
-    //solutie4();
+    solutie4();
 
 
 
