@@ -4,7 +4,8 @@
 //#include "varianta4.h";
 //#include "varianta5.h";
 //#include "varianta6.h";
-#include "varianta7.h";
+//#include "varianta7.h";
+#include "varianta8.h";
 
 int main()
 {
