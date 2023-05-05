@@ -8,6 +8,7 @@
 //#include "varianta8.h";
 //#include "varianta9.h";
 //#include "varianta10.h";
+#include "varianta11.h";
 
 int main()
 {
@@ -18,8 +19,10 @@ int main()
 
     //solutie3();
 
-    //solutie4();
+    solutie4();
 
     //cout << sub(83);
+
+    //cout << sum(9);
 
 }
