@@ -11,7 +11,8 @@
 //#include "varianta11.h";
 //#include "varianta12.h";
 //#include "varianta13.h";
-#include "varianta14.h";
+//#include "varianta14.h";
+#include "varianta15.h";
 
 int main()
 {
