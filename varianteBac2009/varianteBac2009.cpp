@@ -9,7 +9,8 @@
 //#include "varianta9.h";
 //#include "varianta10.h";
 //#include "varianta11.h";
-#include "varianta12.h";
+//#include "varianta12.h";
+#include "varianta13.h";
 
 int main()
 {
@@ -25,5 +26,10 @@ int main()
     //cout << sub(83);
 
     //cout << sum(9);
+
+    /*int n = 12655323;
+    P(n, 5);
+    cout << n;*/
+    
 
 }
