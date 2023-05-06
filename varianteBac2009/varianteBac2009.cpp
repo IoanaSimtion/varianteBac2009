@@ -8,7 +8,8 @@
 //#include "varianta8.h";
 //#include "varianta9.h";
 //#include "varianta10.h";
-#include "varianta11.h";
+//#include "varianta11.h";
+#include "varianta12.h";
 
 int main()
 {
