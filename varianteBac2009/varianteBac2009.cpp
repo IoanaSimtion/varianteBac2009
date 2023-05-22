@@ -13,7 +13,8 @@
 //#include "varianta13.h";
 //#include "varianta14.h";
 //#include "varianta15.h";
-#include "varianta16.h";
+//#include "varianta16.h";
+#include "varianta17.h";
 
 int main()
 {
