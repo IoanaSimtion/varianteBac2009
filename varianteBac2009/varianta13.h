@@ -84,9 +84,30 @@ Se cere să se citescă de la tastatură un număr natural n (n≤1000) şi să 
 cel de al n-lea termen al şirului dat. */
 
 
+int termenulN(int n) {
+
+	int ct = 0;
+
+	for (int i = 1; i < n; i++) {
+		for (int j = i; j >= 1; j--) {
+			ct++;
+			if (ct == n) {
+				return j;
+			}
+		}		
+	}
+
+}
+
+
 void solutie3() {
 
-	//?
+	int n;
+
+	cout << "n=";
+	cin >> n;
+	
+	cout << termenulN(n);
 
 }
 

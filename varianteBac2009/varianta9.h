@@ -88,8 +88,46 @@ void solutie3() {
 //4
 
 
+void citireFrecventa(int fr[]) {
+
+	ifstream f("frecventa.txt");
+
+	while (f) {
+		int nr;
+		f >> nr;
+		if (nr < 1000) {
+			fr[nr]++;
+		}
+	}
+
+}
+
+
+void afisare2Nr(int fr[]) {
+
+	int ct = 0;
+
+	for (int i = 999; i >= 100 && ct < 2; i--) {
+		if (fr[i] == 0) {
+			cout << i << ' ';
+			ct++;
+		}
+	}
+
+	if (ct == 0) {
+		cout << ct;
+	}
+
+}
+
+
 void solutie4() {
 
-	//?
+	int fr[1000]{};
+
+	citireFrecventa(fr);
+
+	afisare2Nr(fr);
+
 
 }
