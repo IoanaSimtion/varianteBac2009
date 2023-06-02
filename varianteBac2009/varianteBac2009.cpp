@@ -10,7 +10,7 @@
 //#include "varianta10.h";
 //#include "varianta11.h";
 //#include "varianta12.h";
-#include "varianta13.h";
+//#include "varianta13.h";
 //#include "varianta14.h";
 //#include "varianta15.h";
 //#include "varianta16.h";
@@ -18,6 +18,7 @@
 //#include "varianta18.h";
 //#include "varianta19.h";
 //#include "varianta20.h";
+#include "varianta21.h";
 
 int main()
 {
@@ -26,9 +27,9 @@ int main()
 
     //sol5();
 
-    solutie3();
+    //solutie3();
 
-    //solutie4();
+    solutie4();
 
     //cout << sub(83);
 
