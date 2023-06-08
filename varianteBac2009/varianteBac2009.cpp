@@ -20,12 +20,15 @@
 //#include "varianta20.h";
 //#include "varianta21.h";
 //#include "varianta22.h";
-#include "varianta23.h";
+//#include "varianta23.h";
+#include "varianta24.h";
 
 int main()
 {
 
     //sol3();
+
+    //sol4();
 
     //sol5();
 
