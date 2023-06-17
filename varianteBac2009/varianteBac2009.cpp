@@ -22,7 +22,8 @@
 //#include "varianta22.h";
 //#include "varianta23.h";
 //#include "varianta24.h";
-#include "varianta25.h";
+//#include "varianta25.h";
+#include "varianta26.h";
 
 int main()
 {
