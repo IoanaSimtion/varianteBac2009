@@ -23,7 +23,8 @@
 //#include "varianta23.h";
 //#include "varianta24.h";
 //#include "varianta25.h";
-#include "varianta26.h";
+//#include "varianta26.h";
+#include "varianta27.h";
 
 int main()
 {
@@ -33,7 +34,7 @@ int main()
     //sol4();
 
     //sol5();
-
+    
     //solutie3();
 
     solutie4();
