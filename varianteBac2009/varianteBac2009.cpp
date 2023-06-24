@@ -28,7 +28,8 @@
 //#include "varianta28.h";
 //#include "varianta29.h";
 //#include "varianta31.h";
-#include "varianta32.h";
+//#include "varianta32.h";
+#include "varianta33.h";
 
 int main()
 {
