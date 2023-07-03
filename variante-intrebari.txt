@@ -1,0 +1,2 @@
+varianta 25, s3, 4
+varianta 26, s3, 4
