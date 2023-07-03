@@ -32,7 +32,8 @@
 //#include "varianta33.h";
 //#include "varianta34.h";
 //#include "varianta35.h";
-#include "varianta36.h";
+//#include "varianta36.h";
+#include "varianta37.h";
 
 int main()
 {
@@ -43,9 +44,9 @@ int main()
 
     //sol5();
     
-    solutie3();
+    //solutie3();
 
-    //solutie4();
+    solutie4();
 
     //cout << sub(83);
 
