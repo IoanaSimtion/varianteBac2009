@@ -36,7 +36,8 @@
 //#include "varianta37.h";
 //#include "varianta38.h";
 //#include "varianta39.h";
-#include "varianta40.h";
+//#include "varianta40.h";
+#include "varianta41.h";
 
 int main()
 {
