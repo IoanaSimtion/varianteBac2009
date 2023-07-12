@@ -43,7 +43,8 @@
 //#include "varianta44.h";
 //#include "varianta45.h";
 //#include "varianta46.h";
-#include "varianta47.h";
+//#include "varianta47.h";
+#include "varianta48.h";
 
 int main()
 {
@@ -65,6 +66,8 @@ int main()
     /*int n = 12655323;
     P(n, 5);
     cout << n;*/
+
+    //cout << cmdiv(12, 7);
     
 
 }
