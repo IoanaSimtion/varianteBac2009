@@ -46,7 +46,8 @@
 //#include "varianta47.h";
 //#include "varianta48.h";
 //#include "varianta49.h";
-#include "varianta50.h";
+//#include "varianta50.h";
+#include "varianta51.h";
 
 int main()
 {
