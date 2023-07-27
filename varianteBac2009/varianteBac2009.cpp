@@ -52,7 +52,8 @@
 //#include "varianta53.h";
 //#include "varianta54.h";
 //#include "varianta55.h";
-#include "varianta56.h";
+//#include "varianta56.h";
+#include "varianta57.h";
 
 int main()
 {
@@ -76,6 +77,8 @@ int main()
     cout << n;*/
 
     //cout << cmdiv(12, 7);
+
+    //cout << multiplu(100, 3);
     
 
 }
