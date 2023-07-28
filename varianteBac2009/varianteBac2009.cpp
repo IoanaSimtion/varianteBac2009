@@ -55,7 +55,8 @@
 //#include "varianta56.h";
 //#include "varianta57.h";
 //#include "varianta58.h";
-#include "varianta59.h";
+//#include "varianta59.h";
+#include "varianta60.h";
 
 int main()
 {
@@ -82,5 +83,8 @@ int main()
 
     //cout << multiplu(100, 3);
     
+    /*int x;
+    radical(20, x);
+    cout << x;*/
 
 }
