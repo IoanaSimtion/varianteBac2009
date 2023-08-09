@@ -56,7 +56,8 @@
 //#include "varianta57.h";
 //#include "varianta58.h";
 //#include "varianta59.h";
-#include "varianta60.h";
+//#include "varianta60.h";
+#include "varianta61.h";
 
 int main()
 {
@@ -67,9 +68,9 @@ int main()
 
     //sol5();
     
-    //solutie3();
+    solutie3();
 
-    solutie4();
+    //solutie4();
 
     //cout << sub(83);
 
@@ -86,5 +87,9 @@ int main()
     /*int x;
     radical(20, x);
     cout << x;*/
+
+    /*int y;
+    cifra(124.2341, y);
+    cout << y;*/
 
 }
