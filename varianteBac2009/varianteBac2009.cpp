@@ -57,7 +57,8 @@
 //#include "varianta58.h";
 //#include "varianta59.h";
 //#include "varianta60.h";
-#include "varianta61.h";
+//#include "varianta61.h";
+#include "varianta62.h";
 
 int main()
 {
@@ -68,9 +69,9 @@ int main()
 
     //sol5();
     
-    solutie3();
+    //solutie3();
 
-    //solutie4();
+    solutie4();
 
     //cout << sub(83);
 
