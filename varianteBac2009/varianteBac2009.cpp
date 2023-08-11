@@ -58,7 +58,8 @@
 //#include "varianta59.h";
 //#include "varianta60.h";
 //#include "varianta61.h";
-#include "varianta62.h";
+//#include "varianta62.h";
+#include "varianta63.h";
 
 int main()
 {
@@ -92,5 +93,7 @@ int main()
     /*int y;
     cifra(124.2341, y);
     cout << y;*/
+
+    //cout << verif(7325972);
 
 }
