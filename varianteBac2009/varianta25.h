@@ -168,7 +168,7 @@ void afisareValori(float x) {
 
 	int a, b = 1;
 	
-	while (x * b != int(x * b)) {
+	while (x * b != (int)(x * b)) {
 		b++;
 	}
 

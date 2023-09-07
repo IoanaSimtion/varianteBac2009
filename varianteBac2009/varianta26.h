@@ -166,27 +166,27 @@ void sterge(int v[100], int& n, int i, int j) {
 
 }
 
+void afisareVector(int v[], int n) {
 
-void eliminareElemente(int v[], int& n) {
-
-	int i = 0, j;
-
-	while (i < n) {
-		j = i + 1;
-		while (v[i] == v[j]) {
-			j++;
-		}
-		sterge(v, n, i + 1, j - 1);
-		i++;
+	for (int i = 0; i < n; i++) {
+		cout << v[i] << ' ';
 	}
 
 }
 
 
-void afisareVector(int v[], int n) {
+void eliminareElemente(int v[], int& n) {
+
+	int j;
 
 	for (int i = 0; i < n; i++) {
-		cout << v[i] << ' ';
+
+		j = i + 1;
+		while (v[i] == v[j] && j < n) {
+			j++;
+		}
+		sterge(v, n, i + 1, j - 1);
+				
 	}
 
 }
@@ -197,6 +197,12 @@ void solutie4() {
 	int v[100], n;
 
 	citireVector(v, n);
+
+	/*afisareVector(v, n);
+
+	cout << endl;
+
+	sterge(v, n, 2, 6);*/
 
 	eliminareElemente(v, n);
 
