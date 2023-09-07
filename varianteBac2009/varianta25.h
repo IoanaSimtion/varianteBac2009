@@ -158,9 +158,23 @@ două numere naturale al căror raport este egal cu x şi a căror diferenţă a
 minimă.*/
 
 
-void afisareValori(int x) {
+void afisareValori(float x) {
+
+	//CONDITII
+	// --> daca x < 1 => a < b
+	// --> daca x > 1 => a > b
+	// --> daca x = 1 => a = b
 
 
+	int a, b = 1;
+	
+	while (x * b != int(x * b)) {
+		b++;
+	}
+
+	a = x * b;
+
+	cout << a << ' ' << b;
 
 }
 
@@ -168,11 +182,11 @@ void afisareValori(int x) {
 void solutie4() {
 
 	ifstream f("numar.txt");
-	int x;
+
+	float x;
 
 	f >> x;
 
 	afisareValori(x);
-
 
 }
