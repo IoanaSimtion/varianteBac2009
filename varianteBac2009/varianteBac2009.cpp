@@ -23,7 +23,7 @@
 //#include "varianta23.h";
 //#include "varianta24.h";
 //#include "varianta25.h";
-#include "varianta26.h";
+//#include "varianta26.h";
 //#include "varianta27.h";
 //#include "varianta28.h";
 //#include "varianta29.h";
@@ -40,7 +40,7 @@
 //#include "varianta41.h";
 //#include "varianta42.h";
 //#include "varianta43.h";
-//#include "varianta44.h";
+#include "varianta44.h";
 //#include "varianta45.h";
 //#include "varianta46.h";
 //#include "varianta47.h";
@@ -70,11 +70,11 @@ int main()
 
     //sol4();
 
-    //sol5();
+    sol5();
     
     //solutie3();
 
-    solutie4();
+    //solutie4();
 
     //cout << sub(83);
 

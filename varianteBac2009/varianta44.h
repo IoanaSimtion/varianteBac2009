@@ -22,10 +22,14 @@ void generareMatrice(int a[100][100], int n) {
 
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
-
+			if (i + j < n) {
+				a[i][j] = 1;
+			}
+			else {
+				a[i][j] = a[i - 1][j] + a[i - 1][j - 1];
+			}
 		}
 	}
-
 }
 
 
