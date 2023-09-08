@@ -69,22 +69,78 @@ suma n. Numerele se vor afişa pe ecran, în ordine crescătoare, despărţite �
 câte un spaţiu. În cazul în care nu există un astfel de şir, se va afişa mesajul Nu există.*/
 
 
-void afisareKNumereSumaN(int n, int k) {
+void afisareKNumereSumaN2(int n, int k) {
+
+	int suma = 0, start = 0, j = 0;
+	bool exista = false;
 
 
+	for (int i = start; i < n && exista == false; i++) {
+		//todo:
+
+		int v[100];
+
+		int poz = 0;
+
+		int k = i + 1;
+
+		bool flag = false;
+		while (suma <= n &&  flag==false) {
+			suma += k;
+			v[poz] = k;
+			k++;
+
+		}
+
+	}
+
+}
+
+void afisareKNumereSumaN1(int n, int k, int v[]) {
+
+	int suma = 0, start = 0, ct = 0;
+	bool exista = false;
+
+
+	for (int i = start; i < n && exista == false; i++) {
+		
+		suma += i;
+		v[ct] = i;
+		ct++;
+
+		if (suma > n) {
+			suma = 0;
+			start++;
+			i = start - 1;
+			ct = 0;	
+		}
+
+		if (suma == n && ct == k) {
+			exista = true;
+		}
+	}
+
+	if (exista == false) {
+		cout << "Nu exista";
+	}
+	else {
+		for (int i = 0; i < ct; i++) {
+			cout << v[i] << ' ';
+		}
+	}
 
 }
 
 
 void solutie4() {
 
-	int n, k;
+	int n, k, v[100];
 
 	cout << "n=";
 	cin >> n;
 	cout << "k=";
 	cin >> k;
 
-	afisareKNumereSumaN(n, k);
+	afisareKNumereSumaN1(n, k, v);
 
 }
